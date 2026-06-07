@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cart — Fearless Store</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <nav class="nav"><div class="brand">Fearless Store</div><div class="nav-links"><a href="index.html">Home</a><a href="catalog.html">Catalog</a><a href="login.html">Login</a></div></nav>
+    <main class="container">
+      <h2>Your Cart</h2>
+      <div id="cart"></div>
+      <hr>
+      <h3>Checkout</h3>
+      <form id="checkout">
+        <input name="name" placeholder="Full name" required style="width:100%;padding:10px;border-radius:8px;margin-bottom:8px;background:#071018;border:1px solid rgba(255,255,255,0.03);color:var(--muted)">
+        <input name="email" placeholder="Email" type="email" required style="width:100%;padding:10px;border-radius:8px;margin-bottom:8px;background:#071018;border:1px solid rgba(255,255,255,0.03);color:var(--muted)">
+        <textarea name="address" placeholder="Shipping address" required style="width:100%;padding:10px;border-radius:8px;margin-bottom:8px;background:#071018;border:1px solid rgba(255,255,255,0.03);color:var(--muted)"></textarea>
+        <button class="btn" type="submit">Place Order</button>
+      </form>
+      <div id="message"></div>
+    </main>
+    <script type="module" src="assets/js/cart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Catalog — Fearless Store</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <nav class="nav"><div class="brand">Fearless Store</div><div class="nav-links"><a href="index.html">Home</a><a href="catalog.html">Catalog</a><a href="cart.html">Cart</a><a href="login.html">Login</a></div></nav>
+    <main class="container">
+      <header style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px">
+        <input id="search" placeholder="Search products..." style="padding:10px;border-radius:8px;background:#071018;border:1px solid rgba(255,255,255,0.03);color:var(--muted);width:60%">
+        <select id="category" style="padding:10px;border-radius:8px;background:#071018;border:1px solid rgba(255,255,255,0.03);color:var(--muted)">
+          <option value="">All categories</option>
+        </select>
+      </header>
+      <section id="grid" class="grid"></section>
+    </main>
+    <script type="module" src="assets/js/catalog.js"></script>
+  </body>
+</html>
