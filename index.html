@@ -1,55 +1,265 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Fearless Store</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-    <nav class="nav">
-      <div class="brand">Fearless Store</div>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
-        <a href="cart.html" class="cart-link">Cart (<span id="cart-count">0</span>)</a>
-        <a href="login.html">Login</a>
-      </div>
-    </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FEARLESS — Premium Game Panels & Pro Rank Services</title>
+  <meta name="description" content="FEARLESS delivers premium gaming panels, reseller plans, and premium Free Fire IDs with secure activation, fast delivery, and 24/7 support.">
+  <meta property="og:title" content="FEARLESS — Premium Game Panels & Pro Rank Services">
+  <meta property="og:description" content="Secure, modern, and responsive game panel solutions for PC, Android, iOS, and reseller partners.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fearless.github.io/">
+  <meta name="theme-color" content="#111827">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-container">
+      <a class="brand" href="index.html" aria-label="FEARLESS homepage">
+        <span class="brand-mark">F</span>
+        <span>FEARLESS</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="site-menu is-open" id="site-menu" aria-label="Primary navigation" data-site-menu>
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="cheats/android.html">Phone Panel</a>
+        <a class="nav-link" href="cheats/ios.html">iOS Panel</a>
+        <a class="nav-link" href="pc-panel.html">PC Panel</a>
+        <a class="nav-link" href="free-fire-ids.html">FF IDs</a>
+        <a class="nav-link" href="ssm-panel.html">SSM Panel</a>
+        <a class="nav-link" href="reseller.html">Reseller</a>
+      </nav>
+    </div>
+  </header>
 
-    <header class="hero">
-      <div class="hero-bg"></div>
-      <div class="hero-content glass">
-        <h1>Gear up. Be Fearless.</h1>
-        <p>Premium gaming merchandise and digital gear — fast, secure, fearless.</p>
-        <div class="hero-cta">
-          <a class="btn" href="catalog.html">Shop Now</a>
-          <a class="btn ghost" href="#" id="discord-btn">Discord Support</a>
+  <main>
+    <section class="hero">
+      <div class="site-container hero-inner">
+        <div>
+          <span class="hero-eyebrow">FEARLESS premium game services</span>
+          <h1 class="hero-title">A modern dashboard for elite game panel access and reseller growth.</h1>
+          <p class="hero-text">FEARLESS brings secure panel delivery for PC, Android, iOS, Free Fire IDs, and reseller programs with fast activation and reliable support.</p>
+          <div class="hero-actions">
+            <a class="btn" href="pc-panel.html">Explore PC Panels</a>
+            <a class="btn-secondary" href="cheats/android.html">View Mobile Panels</a>
+          </div>
+        </div>
+        <div class="section-highlight">
+          <div class="section-head">
+            <p class="hero-eyebrow">Trusted for performance</p>
+            <h2>One destination for premium game panel services.</h2>
+          </div>
+          <div class="grid-2">
+            <div class="card">
+              <h3>Secure activation</h3>
+              <p>Instant setup with proactive protection and panel stability across every supported platform.</p>
+            </div>
+            <div class="card">
+              <h3>Reseller-ready</h3>
+              <p>Start your reseller business with FEARLESS partner pricing, dashboard control, and first-class support.</p>
+            </div>
+            <div class="card">
+              <h3>Fast delivery</h3>
+              <p>Verified packages and premium Free Fire IDs delivered directly with no wait.</p>
+            </div>
+            <div class="card">
+              <h3>24/7 support</h3>
+              <p>Live WhatsApp and direct support keep your account and panel access running smoothly.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main class="container">
-      <section class="featured">
-        <h2>Featured Products</h2>
-        <div id="products" class="grid"></div>
-      </section>
-      <section class="about">
-        <h2>About Fearless</h2>
-        <p>Modern dark-themed gaming marketplace with fast checkout and secure accounts.</p>
-      </section>
-    </main>
+    <section class="section section-alt">
+      <div class="site-container">
+        <div class="section-head">
+          <p class="hero-eyebrow">Services</p>
+          <h2>FEARLESS panels and packages</h2>
+        </div>
+        <div class="panel-grid">
+          <article class="panel-card">
+            <div class="panel-card-inner">
+              <div class="card-head">
+                <div>
+                  <p class="card-meta">Phone panel</p>
+                  <h3>Android Booster</h3>
+                </div>
+                <span class="card-badge">Instant</span>
+              </div>
+              <p>Premium Android panel access with safe activation, advanced cheat controls, and fast account delivery.</p>
+              <ul>
+                <li>Multi-function mobile dashboard</li>
+                <li>Secure activation and device protection</li>
+                <li>Live support during setup</li>
+              </ul>
+              <div class="card-footer">
+                <span class="price-wrap"><span class="price">Starting ₹499</span><span class="price-note">per activation</span></span>
+                <a class="card-button" href="cheats/android.html">View details</a>
+              </div>
+            </div>
+          </article>
 
-    <footer class="footer">
-      <div>© <span id="year"></span> Fearless Store</div>
-      <div class="footer-links">
-        <a href="terms.html">Terms</a>
-        <a href="privacy.html">Privacy</a>
+          <article class="panel-card">
+            <div class="panel-card-inner">
+              <div class="card-head">
+                <div>
+                  <p class="card-meta">iOS panel</p>
+                  <h3>iOS Elite</h3>
+                </div>
+                <span class="card-badge">Reliable</span>
+              </div>
+              <p>Secure iOS panel installs built for premium performance and compatibility with leading titles.</p>
+              <ul>
+                <li>Minimal risk, stable updates</li>
+                <li>Optimized for competitive play</li>
+                <li>Support for modern devices</li>
+              </ul>
+              <div class="card-footer">
+                <span class="price-wrap"><span class="price">From ₹699</span><span class="price-note">per panel</span></span>
+                <a class="card-button" href="cheats/ios.html">View details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel-card">
+            <div class="panel-card-inner">
+              <div class="card-head">
+                <div>
+                  <p class="card-meta">PC panel</p>
+                  <h3>Fitted PC Suite</h3>
+                </div>
+                <span class="card-badge">Premium</span>
+              </div>
+              <p>Highly configurable PC panels with external and internal support for the full competitive toolset.</p>
+              <ul>
+                <li>AI-assisted aim controls</li>
+                <li>Stealth-ready in-game overlays</li>
+                <li>Fast setup and stable release channel</li>
+              </ul>
+              <div class="card-footer">
+                <span class="price-wrap"><span class="price">From ₹999</span><span class="price-note">per day</span></span>
+                <a class="card-button" href="pc-panel.html">View details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel-card">
+            <div class="panel-card-inner">
+              <div class="card-head">
+                <div>
+                  <p class="card-meta">Free Fire IDs</p>
+                  <h3>VIP status</h3>
+                </div>
+                <span class="card-badge">Exclusive</span>
+              </div>
+              <p>Premium Free Fire ID packages with top rank rewards, skins, and fast account delivery.</p>
+              <ul>
+                <li>Verified IDs ready to play</li>
+                <li>Tier-based premium options</li>
+                <li>Secure transfer support</li>
+              </ul>
+              <div class="card-footer">
+                <span class="price-wrap"><span class="price">From ₹799</span><span class="price-note">per ID</span></span>
+                <a class="card-button" href="free-fire-ids.html">View details</a>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
-    </footer>
+    </section>
 
-    <script type="module" src="assets/js/main.js"></script>
-  </body>
+    <section class="section">
+      <div class="site-container">
+        <div class="section-head">
+          <p class="hero-eyebrow">Why FEARLESS</p>
+          <h2>Trusted by players who want premium tools with modern support.</h2>
+        </div>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Performance-first</h3>
+            <p>Every package is built with stable execution and consistent results in mind, no matter the platform.</p>
+          </div>
+          <div class="card">
+            <h3>Smart delivery</h3>
+            <p>Automatic activation and quick support routes help you get running within minutes.</p>
+          </div>
+          <div class="card">
+            <h3>Real partner support</h3>
+            <p>Chat via WhatsApp and secure communications for every order and reseller enquiry.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="site-container section-contact">
+        <div>
+          <p class="hero-eyebrow">Contact FEARLESS</p>
+          <h2>Get help, get a panel, or start your reseller plan.</h2>
+          <p>Reach out directly with WhatsApp or use the links below to view package details and start your order.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <strong>WhatsApp support</strong>
+            <p><a href="https://wa.me/917874883702" target="_blank" rel="noreferrer">+91 78748 83702</a></p>
+          </div>
+          <div class="contact-card">
+            <strong>Email</strong>
+            <p><a href="mailto:help@fearless.gg">help@fearless.gg</a></p>
+          </div>
+          <div class="contact-card">
+            <strong>Browse pages</strong>
+            <p>Explore the latest phone, PC, and reseller services available now.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-container footer-grid">
+      <div class="footer-brand">
+        <span class="brand">FEARLESS</span>
+        <p>Premium gaming panel services, reseller programs, and verified ID deliveries built for performance.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="pc-panel.html">PC Panel</a>
+        <a href="free-fire-ids.html">Free Fire IDs</a>
+        <a href="reseller.html">Reseller</a>
+      </div>
+      <div class="footer-links">
+        <a href="cheats/android.html">Phone Panel</a>
+        <a href="cheats/ios.html">iOS Panel</a>
+        <a href="ssm-panel.html">SSM Panel</a>
+        <a href="https://wa.me/917874883702" target="_blank" rel="noreferrer">WhatsApp</a>
+      </div>
+      <div class="footer-brand">
+        <strong>Follow FEARLESS</strong>
+        <div class="social-links">
+          <a href="https://instagram.com/fearless" target="_blank" rel="noreferrer">IG</a>
+          <a href="https://twitter.com/fearless" target="_blank" rel="noreferrer">TW</a>
+          <a href="https://youtube.com/@fearless" target="_blank" rel="noreferrer">YT</a>
+        </div>
+      </div>
+    </div>
+    <div class="site-container footer-bottom">
+      <p>© 2026 FEARLESS. All rights reserved.</p>
+      <p>Designed for secure panel access and reseller growth.</p>
+    </div>
+  </footer>
+
+  <script src="assets/scripts.js" defer></script>
+</body>
 </html>
